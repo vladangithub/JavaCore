@@ -3,7 +3,16 @@ package com.vladan.oop.less2;
 public class Computer {
 
     int ssd = 500;
-    int ram = 1024;
+    int ram;
+
+    Computer(){
+        System.out.println("Я был создан");
+
+    }
+
+    Computer(int newSsd) {
+        ssd = newSsd;
+    }
 
 
     void load() {

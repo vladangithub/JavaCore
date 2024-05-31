@@ -1,4 +1,4 @@
-package com.vladan.javavaria.al49;
+package com.vladan.javasundry;
 
 public class Recursion {
     public static void main(String[] args) {
