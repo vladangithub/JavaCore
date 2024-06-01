@@ -12,6 +12,12 @@ public class Computer {
 
     Computer(int newSsd) {
         ssd = newSsd;
+        ram = 999;
+
+    }
+    Computer(int ssd, int newRam) {
+        this.ssd = ssd;
+        ram = newRam;
     }
 
 
@@ -22,5 +28,6 @@ public class Computer {
     void printState() {
         System.out.println("SSD: " + ssd);
         System.out.println("RAM: " + ram);
+        System.out.println();
     }
 }
